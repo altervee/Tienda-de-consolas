@@ -1,0 +1,74 @@
+
+  body{
+    background: url(../img/productos/imagenes/image.jpg);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .container{
+    margin-top: 200px;
+    padding-right: 5px;
+    left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    width: 98%;
+    border: 5px solid black;
+    border-radius: 12px;
+  }
+  .noSelection{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+  }
+  
+  h1{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+  }
+  
+  
+  #captchaTxtArea{
+    background: url(../imagenes/cap.jpg);
+    color: #FF4500;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    pointer-events: none;
+    margin-top: 15px;
+    width: 154px;
+    
+
+  }
+  
+  #CaptchaEnter{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 303px;
+    height: 40px;
+    border: 3px solid black;
+    font-size: 27px;
+  }
+  
+  #CaptchaEnter::placeholder{
+    color: black;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  #refreshbtn{
+    width: 150px;
+    height: 35px;
+  }
+  
+  #checkbtn{
+    width: 150px;
+    height: 35px;
+  }
