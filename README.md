@@ -60,3 +60,5 @@ Mi proyecto sobre la venta de consolas antiguas
 -tablasFK.php
 -trabajo1.php
 
+#Archivo multimedia:
+
