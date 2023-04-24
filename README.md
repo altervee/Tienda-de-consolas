@@ -2,20 +2,16 @@
 Mi proyecto sobre la venta de consolas antiguas 
 
 ##Indice:
-M5-01-Python Notebook:
-Phython data Types
--String
--Numbers
--Lists
--Tuples
--Dicionaries
--Sets
--Boolean
 
-M5-02-Condicionales
--Condicionales
+Archivo CSS(aplicación de estilo y posicionamiento) :
+-captcha.css
+-hijos.css
+-primero.css
 
-M5-03-Bucles
--While
--Iterar con for
--Generar secuencias de números 
+Archivo config:
+-config.php
+-database
+
+Archivo config:
+-config.php
+-database
