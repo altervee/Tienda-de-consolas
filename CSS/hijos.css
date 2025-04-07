@@ -1,16 +1,8 @@
-<<<<<<< HEAD
 body{
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-=======
-body{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
->>>>>>> aa635ac89f4ca6c2a74ce5a3c47f6b80dcc738d0
+
 }

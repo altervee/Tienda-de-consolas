@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -55,62 +54,4 @@
 </script>
 
 </body>
-=======
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <title>Practica Ivan Caldero Culebras</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="icono/pink.ico" type="imagen/ico" />
-    <link rel="stylesheet" href="CSS/captcha.css" type="text/css">
-<body>
-
-<div class="container">
-    
-  <form name="form1">
-<div class="noSelection">
-    <input type="text" id="captchaTxtArea" name="text" value="" readonly><br/>
-</div>
-    <input type="text" id="CaptchaEnter" placeholder="Introduzca el captcha"><br/>
-    <input type="button" value="Refrescar" id="refreshbtn" onclick="genCapNuevo()">
-    <input type="button" value="Validar" id="checkbtn" onclick="comprobarCap()">
-
-  </form>
-</div>
-
-<script type="text/javascript">
-
-  var captcha;
-  var chars;
-  function reedirecion(){// funcion para enviar a la pagina inicil
-    location.href= "php/trabajo1.php"
-  }
-  genCapNuevo();
-  function genCapNuevo(){
-    chars = "1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-    captcha = chars[Math.floor(Math.random() * chars.length )];
-    for(var i=0; i<6; i++){
-      captcha = captcha + chars[Math.floor(Math.random() * chars.length )];
-    }
-    form1.text.value = captcha;
-  }
-
-  function comprobarCap(){
-    var check = document.getElementById("CaptchaEnter").value;
-    if(captcha == check){
-      alert("CORRECTO!! Adelante");
-      document.getElementById("CaptchaEnter").value = "";
-      reedirecion();
-    }else{
-      alert(" UPSS, Intentalo de nuevo");
-      document.getElementById("CaptchaEnter").value = "";
-    }
-
-    genCapNuevo();
-  }
-</script>
-
-</body>
->>>>>>> aa635ac89f4ca6c2a74ce5a3c47f6b80dcc738d0
 </html>
