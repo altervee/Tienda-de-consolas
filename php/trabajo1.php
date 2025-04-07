@@ -46,6 +46,9 @@ crossorigin="anonymous"></script>
             <li class="nav-item">
                 <a href="tablas.php" class="nav-link">Tablas de la BD</a>
             </li>
+            <li class="nav-item">
+                <a href="formulario.php" class="nav-link">Formulario</a>
+            </li>
         </ul>
         <a href="checkout.php" class="btn btn-primary">Carrito<span id="num_cart" class="badge bg-secondary"><?php echo $num_cart;?></span>
         </a>
